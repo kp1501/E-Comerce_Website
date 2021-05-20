@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b921b176c0.js" crossorigin="anonymous"></script>
+
+    <title>Homepage</title>
+  </head>
+
+  <body>
+
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo">E-<strong>Commerce</strong></div>
+        <ul class="links">
+            <li class="nav-item">
+                <a class="nav-link pr-5" href="cart.html"><i class="fa fa-cart-plus"><span class="cart-items pl-2">(0)</span></i></a>
+            </li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+    
+    <!-- <nav class="navbar navbar-expand-lg bh-white">   
+        <div class="container-fluid"> 
+          <a class="navbar-brand pl-5" href="#">E-Commerce</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link pr-5" href="cart.html"><i class="fa fa-cart-plus"><span class="cart-items pl-2">(0)</span></i></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link pr-5" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr-5" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr-5" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr-5" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr-5" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav> -->
+
+    <!-- end-of-nav -->
+    <div id="home" class="carousel slide" data-bs-ride="carousel" data-interval="2000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image/book-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                  <div class="row justify-content-start text-left">
+                      <div class="col-lg-8 mx-auto">
+                          <p>REGULAR COLLECTION 20%</p>
+                          <h1>Get up to 30% off</h1>
+                          <h1>New Arrivals</h1>
+                          <button class="btn0 mt-3 ml-2">SHOP NOW</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./image/book-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="container">
+                    <div class="row justify-content-start text-left">
+                        <div class="col-lg-8 mx-auto">
+                            <p>REGULAR COLLECTION 20%</p>
+                            <h1>Get up to 20% off</h1>
+                            <h1>New Arrivals</h1>
+                            <button class="btn0 mt-3 ml-2">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./image/book-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="container">
+                    <div class="row justify-content-start text-left">
+                        <div class="col-lg-8 mx-auto">
+                            <p>REGULAR COLLECTION 20%</p>
+                            <h1>Get up to 40% off</h1>
+                            <h1>New Arrivals</h1>
+                            <button class="btn0 mt-3 ml-2">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- end-of-carousel -->
+
+      <section class="sub" id="features">
+          <div class="container py-5 text-white">
+              <div class="row mobile_sub">
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                      <div class="row">
+                          <div class="col-lg-2">
+                              <span><i class="fas fa-sync"></i></span>
+                          </div>
+                          <div class="col-lg-10">
+                              <h5>Return & Exchange</h5>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <span><i class="fas fa-gift"></i></span>
+                        </div>
+                        <div class="col-lg-10">
+                            <h5>Receive Gift Cards</h5>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <span><i class="fas fa-user-shield"></i></span>
+                        </div>
+                        <div class="col-lg-10">
+                            <h5>Online Support</h5>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="row btnn">
+                        <input type="text" placeholder="Your Email">
+                        <button class="btn1">SUBSCRIBE</button>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- collection section -->
+
+      <section class="collection">
+          <div class="container py-5">
+              <h1 class="text-center" id="pricing">New Collection</h1>
+              <div class="row py-5">
+                  <div class="col-lg-3">
+                      <div class="card">
+                          <img src="./image/book-portrait/book-1.jpg" class="img-fluid mb-3" alt="">
+                          <input type="button" onclick="add_to_cart('1','Book 1','12.99')" value="Add To Cart">
+                          <h5>BOOK NAME <span>Author Name</span></h5>
+                          <p><small><del>$24.99</del><span>$12.99</span></small></p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./image/book-portrait/book-2.jpg" class="img-fluid mb-3" alt="">
+                        <input type="button" onclick="add_to_cart('2','Book 2','15')" value="Add To Cart">
+                        <h5>BOOK NAME <span>Author Name</span></h5>
+                        <p><small><del>$24.99</del><span>$15</span></small></p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./image/book-portrait/book-3.jpg" class="img-fluid mb-3" alt="">
+                        <input type="button" onclick="add_to_cart('3','Book 3','15.99')" value="Add To Cart">
+                        <h5>BOOK NAME <span>Author Name</span></h5>
+                        <p><small><del>$24.99</del><span>$15.99</span></small></p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./image/book-portrait/book-4.jpg" class="img-fluid mb-3" alt="">
+                        <input type="button" onclick="add_to_cart('4','Book 4','12.99')" value="Add To Cart">
+                        <h5>BOOK NAME <span>Author Name</span></h5>
+                        <p><small><del>$24.99</del><span>$12.99</span></small></p>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="parallex py-5">
+          <div class="container py-5 text-white text-center">
+              <div class="row py-3">
+                  <div class="col-lg-9 mx-auto">
+                      <h1>Books, The True Friend</h1>
+                      <p class="py-3">Best Books are available at lowest price, don't wait just grab it now.</p>
+                      <button class="btn2 mr-1">SHOP NOW</button>
+                      <button class="btn3">GET DEAL</button>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="collection">
+        <div class="container py-5">
+            <h1 class="text-center">Featured Products</h1>
+            <div class="row py-5">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./image/book-portrait/book-5.jpg" class="img-fluid mb-3" alt="">
+                        <input type="button" onclick="add_to_cart('5','Book 5','17.99')" value="Add To Cart">
+                        <h5>BOOK NAME <span>Author Name</span></h5>
+                        <p><small><del>$26.99</del><span>$17.99</span></small></p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card">
+                      <img src="./image/book-portrait/book-6.jpg" class="img-fluid mb-3" alt="">
+                      <input type="button" onclick="add_to_cart('6','Book 6','15')" value="Add To Cart">
+                      <h5>BOOK NAME <span>Author Name</span></h5>
+                      <p><small><del>$24.99</del><span>$15</span></small></p>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="card">
+                      <img src="./image/book-portrait/book-7.jpg" class="img-fluid mb-3" alt="">
+                      <input type="button" onclick="add_to_cart('7','Book 7','19')" value="Add To Cart">
+                      <h5>BOOK NAME <span>Author Name</span></h5>
+                      <p><small><del>$22</del><span>$19</span></small></p>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="card">
+                      <img src="./image/book-portrait/book-8.jpg" class="img-fluid mb-3" alt="">
+                      <input type="button" onclick="add_to_cart('8','Book 8','15')" value="Add To Cart">
+                      <h5>BOOK NAME <span>Author Name</span></h5>
+                      <p><small><del>$24.99</del><span>$15</span></small></p>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="article" id="blog">
+        <div class="container py-5">
+            <h1 class="text-center">Latest Article On Book</h1>
+            <div class="row py-5">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./image/book-box/book-1.jpg" class="" alt="">
+                        <p class="pt-3"><a href="#">Trending news on this book.</a></p>
+                        <small>By Admin / <span>Business</span></small>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./image/book-box/book-2.jpg" class="" alt="">
+                        <p class="pt-3"><a href="#">This book is in trending.</a></p>
+                        <small>By Admin / <span>Business</span></small>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./image/book-box/book-3.jpg" class="" alt="">
+                        <p class="pt-3"><a href="#">Read about country's choice.</a></p>
+                        <small>By Admin / <span>Business</span></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact bg-light pt-5 text-center" id="contact">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-lg-7 mx-auto">
+                    <input type="text" placeholder="Enter Your Email Address">
+                    <button class="btn4 my-5">GET NOTIFIED</button>
+                    <p>©Copyright 2021 E-Commerce All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
